@@ -10,13 +10,14 @@ class App extends Component {
     const catOnClick = () => {
       setClicks(clicks + 1);
     }
+    
     return (
       <div className="App">
         <header className="App-header">       
-          <button>Hello</button>
-          <img onClick={catOnClick} src="cat.png" />
-          <p class="clicks">Clicks {clicks}</p>
         </header>
+        <button>Hello</button>
+        <img onClick={catOnClick} src="cat.png" />
+        <p class="clicks">Clicks {clicks}</p>
       </div>
     )
   }
