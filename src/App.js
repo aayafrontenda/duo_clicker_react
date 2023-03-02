@@ -14,8 +14,8 @@ class App extends Component {
       <div className="App">
         <header className="App-header">       
           <button>Hello</button>
-          <img onClick="" src="cat.png" />
-          <p class="clicks" onClick={catOnClick}>Clicks {clicks}</p>
+          <img onClick={catOnClick} src="cat.png" />
+          <p class="clicks">Clicks {clicks}</p>
         </header>
       </div>
     )
